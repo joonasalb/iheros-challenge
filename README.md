@@ -14,10 +14,13 @@ pip install -r requirements.txt
 
 ```shell
 cp .env.development .env
-docker build -t iheros .
+docker build -t iheros-backend .
 ## Deploy
-docker run --env-file=.env.development --network=host -d iheros
+docker run --env-file=.env.development --network=host -d iheros-backend
 ```
+
+Runs the server in the development mode.<br />
+Open [http://localhost:8000](http://localhost:8000)
 
 ## Database
 

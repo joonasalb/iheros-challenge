@@ -24,4 +24,6 @@ RUN chown -R iheros /usr/src/app
 
 USER iheros:iheros
 
+EXPOSE 8000
+
 ENTRYPOINT [ "/opt/bin/entrypoint.sh" ]
