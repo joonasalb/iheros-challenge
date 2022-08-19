@@ -1,0 +1,12 @@
+# Docs
+
+# Virtual environments
+env
+.env
+venv
+.venv
+
+# Git things
+.git
+.gitignore
+.cache
